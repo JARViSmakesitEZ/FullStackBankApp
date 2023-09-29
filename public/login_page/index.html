@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>LIB & Co.</title>
+  </head>
+  <body>
+    <nav>
+      <p class="welcome">Log in to get started .</p>
+      <div id="logoid"><img src="../logo.png" alt="Logo" class="logo" /></div>
+      <form class="login" id="loginForm" action="/check" method="POST">
+        <input
+          type="text"
+          placeholder="username"
+          class="login__input login__input--user"
+          name="username"
+          id="username"
+        />
+        <input
+          type="password"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+          name="password"
+          id="password"
+        />
+        <button type="submit" class="login__btn">&rarr;</button>
+      </form>
+    </nav>
+    <div class="sloganparent">
+      <div class="slogan">
+        <h1>
+          Welcome to the<br />
+          Lorem Ipsum Bank .
+        </h1>
+      </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
