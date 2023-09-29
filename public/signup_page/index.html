@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIB & Co.</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <p class="welcome">Sign up to get started .</p>
+      <div id="logo"><img src="../logo.png" alt="logo" /></div>
+    </nav>
+    <div class="container">
+      <form action="/newuser" method="POST">
+        <p>Full Name</p>
+        <input type="text" name="name" id="name" placeholder="Full Name" />
+        <p>Email</p>
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <p>Set a PIN</p>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter a PIN"
+        />
+        <p>Current Balance</p>
+        <input
+          type="number"
+          name="balance"
+          id="balance"
+          placeholder="Enter your current Balance"
+        />
+        <button class="login__btn">&rarr;</button>
+      </form>
+    </div>
+  </body>
+</html>

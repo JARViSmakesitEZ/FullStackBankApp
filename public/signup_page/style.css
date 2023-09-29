@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dad4b5;
+  display: flex;
+  align-items: flex-start;
+  background-image: linear-gradient(to bottom, #dad4b5);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #952323;
+  border-radius: 15px;
+  position: sticky;
+  width: 100%;
+  height: 120px;
+  margin-top: -28px;
+}
+
+nav > img {
+  margin: 0px 10px;
+  /* padding: 0px; */
+}
+
+#logo {
+  background-color: #dad4b5;
+  border-radius: 15px;
+  padding: 2rem;
+  height: 120px;
+  width: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-right: 715px;
+}
+
+#logo > img {
+  height: 10rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  background-color: #952323;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 110px;
+  /* background-image: linear-gradient(to top, #dad4b5, #952323); */
+}
+
+.welcome {
+  font-size: 1.9rem;
+  font-weight: 500;
+  /* align-self: flex-start; */
+  margin-right: auto;
+}
+
+button {
+  width: 50%;
+  background-color: #dad4b5;
+  border-radius: 15px;
+  border: none;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+.login__btn {
+  border: none;
+  background: none;
+  font-size: 2.2rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+input {
+  border-radius: 15px;
+  background-color: #dad4b5;
+  border: none;
+  height: 35px;
+  width: 250px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
